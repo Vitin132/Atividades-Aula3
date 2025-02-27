@@ -25,9 +25,9 @@ public class VerificadorDiasSemana {
             
             System.out.println("Fim de semana!");
             
-        }else {
+        }else if (dia.equals("segunda") || (dia.equals("terca")) || (dia.equals("quarta")) || (dia.equals("quinta")) || (dia.equals("sexta"))) {
             
-            System.out.println("Dia útil");
+            System.out.println("Dia de semana");
             
         }
         
